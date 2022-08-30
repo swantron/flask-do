@@ -1,0 +1,6 @@
+name: flask-do
+services:
+- name: web
+  github:
+    repo: swantron/flask-do
+    branch: main
