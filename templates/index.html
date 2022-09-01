@@ -8,6 +8,8 @@
   <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
   <!-- <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Ariel:wght@800&amp;family=Ariel&amp;display=swap" /> -->
+  <script type = "text/javascript" 
+    src = "{{ url_for('static', filename = 'js/hello.js') }}" ></script>
 </head>
 
 <body>
@@ -46,7 +48,9 @@
       <p>
         ..probably the second best one 🤌
       </p>
-
+    </div>
+    <div class="content">
+      <input type = "button" onclick = "sayHello()" value = "sup" />
     </div>
   </div>
 
