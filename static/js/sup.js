@@ -1,3 +1,3 @@
 function saySup() {
-    alert("suuuuuup")
+    alert("sup.")
  }
