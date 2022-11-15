@@ -1,0 +1,3 @@
+function sayYo() {
+    alert("yo")
+ }
