@@ -10,6 +10,8 @@
     href="https://fonts.googleapis.com/css2?family=Ariel:wght@800&amp;family=Ariel&amp;display=swap" /> -->
   <script type = "text/javascript" 
     src = "{{ url_for('static', filename = 'js/sup.js') }}" ></script>
+  <script type = "text/javascript" 
+    src = "{{ url_for('static', filename = 'js/yo.js') }}" ></script>
 </head>
 
 <body>
@@ -51,6 +53,10 @@
     </div>
     <div class="button">
       <input type = "button" onclick = "saySup()" value = "sup?" />
+    </div>
+  </div>
+    <div class="button">
+      <input type = "button" onclick = "sayYo()" value = "yo" />
     </div>
   </div>
 
@@ -309,7 +315,6 @@
 
     .button:hover {
       background-position: right center;
-      /* change the direction of the change here */
       color: #fff;
       text-decoration: none;
     }
