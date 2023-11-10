@@ -2,6 +2,8 @@ FROM ubuntu:16.04
 
 MAINTANER Joseph Swanson "joe@swantron.com"
 
+RUN which python
+
 RUN apt-get update -y && \
     apt-get install -y python-pip python-dev
 
