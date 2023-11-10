@@ -1,6 +1,6 @@
 FROM ubuntu:22.04
 
-MAINTANER Joseph Swanson "joe@swantron.com"
+LABEL maintainer="Joseph Swanson <joe@swantron.com>"
 
 RUN which python
 
